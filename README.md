@@ -296,7 +296,7 @@ TRACK_WIDTH = 40           # Track width
 
 1. **Track Selection**: Use `gen.py` to generate diverse tracks. More variety improves generalization.
 
-2. **Training Time**: Training 500 generations with 100 population takes several hours. Reduce `GENERATIONS` or `POPULATION_SIZE` for faster experiments.
+2. **Training Time**: Training 500 generations with 100 population takes a couple of hours. Reduce `GENERATIONS` or `POPULATION_SIZE` for faster experiments.
 
 3. **Model Selection**: Check `training_progress.png` to see if fitness is still improving. You may want to use a model from a later generation rather than `final.pkl`.
 
