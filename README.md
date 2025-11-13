@@ -1,5 +1,7 @@
 # AI Racing Agent - Genetic Algorithm Training
-![Demo Video](demo.mp4)
+
+![Demo Video](demo.gif)
+
 A racing game environment where an AI agent learns to drive using a Genetic Algorithm (GA) to evolve neural networks. The agent learns to navigate various procedurally generated tracks, complete laps, and maximize rewards through checkpoint-based progression.
 
 ## Features
@@ -26,7 +28,7 @@ Racing/
 ├── gen.py              # Track generation and selection tool
 ├── test.py             # Model testing and visualization
 ├── record_video.py     # Video recording script
-├── demo.mp4            # Demo video of trained model
+├── demo.gif            # Demo video of trained model (animated GIF)
 ├── models/             # Saved trained models (timestamped directories)
 └── tracks/             # Generated tracks and cache
     ├── track_cache.pkl # Cached track data
